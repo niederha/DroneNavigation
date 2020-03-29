@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:minHeight="72dp"
+    android:orientation="vertical"
+    android:paddingEnd="16dp"
+    android:paddingStart="16dp">
+
+
+    <Button
+    android:id="@+id/takeOff"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text= "@string/take_off"/>
+
+    <Button
+        android:id="@+id/land"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/land" />
+
+    <Button
+        android:id="@+id/goToBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Go To" />
+
+    <EditText
+        android:id="@+id/latText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:text="46.5133" />
+
+    <EditText
+        android:id="@+id/longText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:text="6.563267" />
+
+</LinearLayout>

@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">DroneToHand</string>
+    <string name="enable">Enable</string>
+    <string name="wifi_disabled">Wifi is disabled</string>
+    <string name="no_nearby_device">No nearby device</string>
+    <string name="wifi_connected">Unable to discover drone while wifi connected </string>
+    <string name="disconnect">Disconnect</string>
+    <string name="take_off">Take Off</string>
+    <string name="land">Land</string>
+</resources>
